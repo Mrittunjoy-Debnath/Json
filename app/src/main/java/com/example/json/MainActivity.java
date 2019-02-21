@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject arrayObject = jsonArray.getJSONObject(i);
                     name = arrayObject.getString("name");
                     age = arrayObject.getInt("age");
-                    description = arrayObject.getString("description");
+                    description = arrayObject.getString("description is added");
 
                     lastBuffer.append(name + "\n" + age + "\n" + description + "\n\n");
                 }
