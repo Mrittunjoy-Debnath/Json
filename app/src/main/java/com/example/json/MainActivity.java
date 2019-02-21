@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 String line = "";
                 StringBuffer lastBuffer = new StringBuffer();
                 while ((line = bufferedReader.readLine()) != null) {
-                    
+
 
                     stringBuffer.append(line);
 
